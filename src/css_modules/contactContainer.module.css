@@ -1,0 +1,43 @@
+.container {
+    border-radius: 5px;
+    background-color: rgba(60, 69, 67, 0.6);
+    padding: 20px;
+    margin-bottom: 8px;
+}
+
+select {
+    color: whitesmoke;
+}
+
+option {
+    background-color: darkslategrey;
+}
+
+.fields {
+    background-color: rgba(216, 201, 123, 0.4);
+    width: 100%;
+    padding: 12px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    color: whitesmoke;
+}
+
+::placeholder {
+    color: rgba(245,245,245, 0.5);
+}
+
+.button {
+    background-color: rgba(204, 3, 35, 0.5);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(204, 3, 35, 0.75);
+}
+
